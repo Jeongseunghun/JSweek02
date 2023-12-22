@@ -1,0 +1,9 @@
+//jest사용
+function add(a,b) {
+    return a + b;
+}
+
+test('확인',()=> {
+    const res = add(2,4);
+    expect(res).toBe(6);
+});
